@@ -31,6 +31,7 @@
 	<Property Name="Serialized ACL" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!A1%!!!@````]!!".V&lt;H.J:WZF:#"C?82F)'&amp;S=G&amp;Z!!%!!1!!!!A)!!!!#!!!!!!!!!!</Property>
 	<Property Name="Use Data Logging Database" Type="Bool">true</Property>
 	<Item Name="ctl" Type="Folder">
+		<Item Name="ErrorData.ctl" Type="VI" URL="../ctl/ErrorData.ctl"/>
 		<Item Name="MainData.ctl" Type="VI" URL="../ctl/MainData.ctl"/>
 		<Item Name="MainStates.ctl" Type="VI" URL="../ctl/MainStates.ctl"/>
 		<Item Name="StateData.ctl" Type="VI" URL="../ctl/StateData.ctl"/>
