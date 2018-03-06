@@ -46,6 +46,7 @@
 		<Item Name="Log to error file.vi" Type="VI" URL="../Private/Log to error file.vi">
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		</Item>
+		<Item Name="LookupError.vi" Type="VI" URL="../Private/LookupError.vi"/>
 		<Item Name="ReadQ.vi" Type="VI" URL="../Private/ReadQ.vi">
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		</Item>
@@ -61,7 +62,11 @@
 		<Item Name="Exit.vi" Type="VI" URL="../Public/Exit.vi"/>
 		<Item Name="Init.vi" Type="VI" URL="../Public/Init.vi"/>
 		<Item Name="LogError.vi" Type="VI" URL="../Public/LogError.vi"/>
+		<Item Name="Warning.vi" Type="VI" URL="../Public/Warning.vi"/>
 		<Item Name="WriteQ.vi" Type="VI" URL="../Public/WriteQ.vi"/>
+	</Item>
+	<Item Name="Tools" Type="Folder">
+		<Item Name="Add class.vi" Type="VI" URL="../Tools/Add class.vi"/>
 	</Item>
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
 </Library>
