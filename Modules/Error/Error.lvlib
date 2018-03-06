@@ -43,10 +43,16 @@
 		<Item Name="GetQ.vi" Type="VI" URL="../Private/GetQ.vi">
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		</Item>
+		<Item Name="Log to error file.vi" Type="VI" URL="../Private/Log to error file.vi">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		</Item>
 		<Item Name="ReadQ.vi" Type="VI" URL="../Private/ReadQ.vi">
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		</Item>
 		<Item Name="Shutdown.vi" Type="VI" URL="../Private/Shutdown.vi">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		</Item>
+		<Item Name="WarningPopup.vi" Type="VI" URL="../Private/WarningPopup.vi">
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		</Item>
 	</Item>
