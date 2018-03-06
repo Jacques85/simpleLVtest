@@ -4,4 +4,12 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">385908736</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
+	<Item Name="ctl" Type="Folder">
+		<Item Name="MainData.ctl" Type="VI" URL="../ctl/MainData.ctl"/>
+		<Item Name="MainStates.ctl" Type="VI" URL="../ctl/MainStates.ctl"/>
+	</Item>
+	<Item Name="Private" Type="Folder">
+		<Item Name="GetQ.vi" Type="VI" URL="../Private/GetQ.vi"/>
+	</Item>
+	<Item Name="Public" Type="Folder"/>
 </Library>
