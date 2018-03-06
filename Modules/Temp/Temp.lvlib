@@ -33,6 +33,7 @@
 	<Item Name="ctl" Type="Folder">
 		<Item Name="MainData.ctl" Type="VI" URL="../ctl/MainData.ctl"/>
 		<Item Name="MainStates.ctl" Type="VI" URL="../ctl/MainStates.ctl"/>
+		<Item Name="StateData.ctl" Type="VI" URL="../ctl/StateData.ctl"/>
 	</Item>
 	<Item Name="Private" Type="Folder">
 		<Item Name="GetQ.vi" Type="VI" URL="../Private/GetQ.vi">
@@ -43,7 +44,10 @@
 		</Item>
 	</Item>
 	<Item Name="Public" Type="Folder">
+		<Item Name="Error.vi" Type="VI" URL="../Public/Error.vi"/>
+		<Item Name="Exit.vi" Type="VI" URL="../Public/Exit.vi"/>
 		<Item Name="Init.vi" Type="VI" URL="../Public/Init.vi"/>
 		<Item Name="WriteQ.vi" Type="VI" URL="../Public/WriteQ.vi"/>
 	</Item>
+	<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
 </Library>
