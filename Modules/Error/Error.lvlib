@@ -35,9 +35,15 @@
 	<Property Name="Use Data Logging Database" Type="Bool">true</Property>
 	<Item Name="ctl" Type="Folder">
 		<Item Name="ErrorInfo.ctl" Type="VI" URL="../ctl/ErrorInfo.ctl"/>
-		<Item Name="MainData.ctl" Type="VI" URL="../ctl/MainData.ctl"/>
-		<Item Name="MainStates.ctl" Type="VI" URL="../ctl/MainStates.ctl"/>
-		<Item Name="StateData.ctl" Type="VI" URL="../ctl/StateData.ctl"/>
+		<Item Name="MainData.ctl" Type="VI" URL="../ctl/MainData.ctl">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		</Item>
+		<Item Name="MainStates.ctl" Type="VI" URL="../ctl/MainStates.ctl">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		</Item>
+		<Item Name="StateData.ctl" Type="VI" URL="../ctl/StateData.ctl">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		</Item>
 	</Item>
 	<Item Name="Private" Type="Folder">
 		<Item Name="GetQ.vi" Type="VI" URL="../Private/GetQ.vi">
@@ -46,7 +52,9 @@
 		<Item Name="Log to error file.vi" Type="VI" URL="../Private/Log to error file.vi">
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		</Item>
-		<Item Name="LookupError.vi" Type="VI" URL="../Private/LookupError.vi"/>
+		<Item Name="LookupError.vi" Type="VI" URL="../Private/LookupError.vi">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		</Item>
 		<Item Name="ReadQ.vi" Type="VI" URL="../Private/ReadQ.vi">
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		</Item>
@@ -58,6 +66,7 @@
 		</Item>
 	</Item>
 	<Item Name="Public" Type="Folder">
+		<Item Name="ClassError.vi" Type="VI" URL="../Public/ClassError.vi"/>
 		<Item Name="Error.vi" Type="VI" URL="../Public/Error.vi"/>
 		<Item Name="Exit.vi" Type="VI" URL="../Public/Exit.vi"/>
 		<Item Name="Init.vi" Type="VI" URL="../Public/Init.vi"/>
@@ -66,7 +75,12 @@
 		<Item Name="WriteQ.vi" Type="VI" URL="../Public/WriteQ.vi"/>
 	</Item>
 	<Item Name="Tools" Type="Folder">
-		<Item Name="Add class.vi" Type="VI" URL="../Tools/Add class.vi"/>
+		<Item Name="Add class.vi" Type="VI" URL="../Tools/Add class.vi">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		</Item>
+		<Item Name="Error test.vi" Type="VI" URL="../Tools/Error test.vi">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		</Item>
 	</Item>
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
 </Library>
