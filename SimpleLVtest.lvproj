@@ -20,7 +20,6 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Error.lvlib" Type="Library" URL="../Modules/Error/Error.lvlib"/>
-		<Item Name="JSONForm.ctl" Type="VI" URL="../Modules/WebRead/ctl/JSONForm.ctl"/>
 		<Item Name="Temp.lvlib" Type="Library" URL="../Modules/Temp/Temp.lvlib"/>
 		<Item Name="WebRead.lvlib" Type="Library" URL="../Modules/WebRead/WebRead.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
