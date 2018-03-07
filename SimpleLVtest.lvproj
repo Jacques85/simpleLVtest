@@ -23,6 +23,7 @@
 		<Item Name="Temp.lvlib" Type="Library" URL="../Modules/Temp/Temp.lvlib"/>
 		<Item Name="Error.lvlib" Type="Library" URL="../Modules/Error/Error.lvlib"/>
 		<Item Name="WebRead.lvlib" Type="Library" URL="../Modules/WebRead/WebRead.lvlib"/>
+		<Item Name="UI.lvlib" Type="Library" URL="../Modules/UI/UI.lvlib"/>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
